@@ -98,7 +98,7 @@ void main() async {
   acc.deposit(8500);
   print(acc.balance);
 
-  // Abstract
+  // Abstraction
   Car car = Car();
   car.start();
 
@@ -108,7 +108,7 @@ void main() async {
     animal.sound(); // كل كائن ينفذ sound  بطريقته
   }
 
-  //
+  // super
   Student student = Student('Ali', 'ABC school');
   student.sayHello();
 }
